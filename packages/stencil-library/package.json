@@ -23,7 +23,8 @@
     "build": "stencil build --docs",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
-    "generate": "stencil generate"
+    "generate": "stencil generate",
+    "clean": "rimraf .turbo node_modules dist coverage test-output"
   },
   "dependencies": {
     "@stencil/core": "^2.13.0"
