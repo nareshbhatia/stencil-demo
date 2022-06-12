@@ -1,7 +1,7 @@
 {
-  "name": "stencil-demo",
+  "name": "stencil-library",
+  "description": "Stencil Library",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "es2015": "dist/esm/index.mjs",
@@ -27,12 +27,12 @@
     "clean": "rimraf .turbo node_modules dist coverage test-output"
   },
   "dependencies": {
-    "@stencil/core": "^2.13.0"
+    "@stencil/core": "^2.16.1"
   },
   "devDependencies": {
-    "@types/jest": "^27.0.3",
-    "jest": "^27.4.5",
-    "jest-cli": "^27.4.5",
+    "@types/jest": "^27.5.2",
+    "jest": "^27.5.1",
+    "jest-cli": "^27.5.1",
     "prettier": "^2.6.2",
     "puppeteer": "^10.0.0"
   },
