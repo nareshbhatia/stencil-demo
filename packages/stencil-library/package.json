@@ -24,12 +24,13 @@
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate",
-    "clean": "rimraf .turbo node_modules dist coverage test-output"
+    "clean": "rimraf .turbo node_modules coverage test-output dist www loader"
   },
   "dependencies": {
     "@stencil/core": "^2.16.1"
   },
   "devDependencies": {
+    "@stencil/react-output-target": "^0.3.1",
     "@types/jest": "^27.5.2",
     "jest": "^27.5.1",
     "jest-cli": "^27.5.1",

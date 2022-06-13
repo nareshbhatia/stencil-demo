@@ -1,4 +1,4 @@
-# stencil-demo
+# Stencil Demo
 
 An example of using Stencil to create a component library.
 

@@ -16,7 +16,6 @@
     "clean": "rimraf .turbo node_modules dist coverage test-output"
   },
   "dependencies": {
-    "@stencil/react-output-target": "^0.3.1",
     "stencil-library": "*"
   },
   "devDependencies": {
